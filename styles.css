@@ -1,0 +1,52 @@
+/* Black background with custom image */
+body {
+    background: black url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Header (Red Banner) */
+.header {
+    background-color: darkred;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Custom Seal (Logo) */
+.seal {
+    width: 120px; /* Adjust size if needed */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Seized Notice */
+.seized-container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 20px;
+}
+
+.warning {
+    font-size: 1.5em;
+    color: yellow;
+    font-weight: bold;
+}
+
+.fake-text {
+    margin-top: 20px;
+    font-size: 1em;
+    color: gray;
+    font-style: italic;
+}
